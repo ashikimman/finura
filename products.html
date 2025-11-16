@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Finura Agro Tech LLP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="Finura Agro Tech LLP Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div class="logo-icon" style="display: none;">🌱</div>
+                <h1>Finura Agro Tech</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="accreditations.html">Accreditations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="reveal">Our Products</h1>
+            <p class="reveal">Premium quality plants cultivated in our state-of-the-art laboratory</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section">
+        <div class="container">
+            <div class="products-filter reveal">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="indoor">Indoor</button>
+                <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+                <button class="filter-btn" data-filter="trees">Trees</button>
+                <button class="filter-btn" data-filter="flowering">Flowering</button>
+                <button class="filter-btn" data-filter="medicinal">Medicinal</button>
+                <button class="filter-btn" data-filter="fruit-veg">Fruits & Vegetables</button>
+                <button class="filter-btn" data-filter="aquatic">Aquatic</button>
+                <button class="filter-btn" data-filter="ornamental">Ornamental</button>
+                <button class="filter-btn" data-filter="bonsai">Bonsai & Exotic</button>
+                <button class="filter-btn" data-filter="landscaping">Landscaping</button>
+                <button class="filter-btn" data-filter="tissue-culture">Tissue Culture</button>
+            </div>
+
+            <!-- Category 1: Indoor Plants -->
+            <div class="product-category-section" data-category="indoor">
+                <div class="category-header">
+                    <h2>1. Indoor Plants</h2>
+                    <p class="category-description">Plants suited for homes, offices, and low-light conditions</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="foliage">
+                        <div class="product-image">
+                            <img src="images/products/foliage-plants.jpg" alt="Foliage Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Foliage Plants</h3>
+                            <p class="product-category">Indoor • Foliage</p>
+                            <p class="product-list">Money Plant, Snake Plant, ZZ Plant, Spider Plant, Philodendron, Pothos</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="air-purifying">
+                        <div class="product-image">
+                            <img src="images/products/air-purifying.jpg" alt="Air-Purifying Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Air-Purifying Plants</h3>
+                            <p class="product-category">Indoor • Air-Purifying</p>
+                            <p class="product-list">Peace Lily, Areca Palm, Rubber Plant, Boston Fern, Aloe Vera</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="succulents">
+                        <div class="product-image">
+                            <img src="images/products/succulents.jpg" alt="Succulents & Cacti" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Succulents & Cacti</h3>
+                            <p class="product-category">Indoor • Succulents</p>
+                            <p class="product-list">Haworthia, Jade Plant, Echeveria, Zebra Plant, Barrel Cactus</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="low-maintenance">
+                        <div class="product-image">
+                            <img src="images/products/low-maintenance.jpg" alt="Low Maintenance Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Low Maintenance Plants</h3>
+                            <p class="product-category">Indoor • Easy Care</p>
+                            <p class="product-list">Sansevieria, ZZ Plant, Aglaonema, Lucky Bamboo</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2: Outdoor Plants -->
+            <div class="product-category-section" data-category="outdoor">
+                <div class="category-header">
+                    <h2>2. Outdoor Plants</h2>
+                    <p class="category-description">For gardens, balconies, or open areas</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="flowering">
+                        <div class="product-image">
+                            <img src="images/products/flowering-outdoor.jpg" alt="Flowering Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8 12h8M12 8v8"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Flowering Plants</h3>
+                            <p class="product-category">Outdoor • Flowering</p>
+                            <p class="product-list">Hibiscus, Bougainvillea, Marigold, Jasmine, Rose, Ixora</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="shrubs">
+                        <div class="product-image">
+                            <img src="images/products/shrubs-bushes.jpg" alt="Shrubs & Bushes" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Shrubs & Bushes</h3>
+                            <p class="product-category">Outdoor • Shrubs</p>
+                            <p class="product-list">Croton, Lantana, Duranta, Oleander, Henna (Lawsonia)</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="climbers">
+                        <div class="product-image">
+                            <img src="images/products/climbers-creepers.jpg" alt="Climbers & Creepers" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Climbers & Creepers</h3>
+                            <p class="product-category">Outdoor • Climbers</p>
+                            <p class="product-list">Morning Glory, Money Plant, Ivy, Bougainvillea, Passiflora</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="hedges">
+                        <div class="product-image">
+                            <img src="images/products/hedges-borders.jpg" alt="Hedges & Borders" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Hedges & Borders</h3>
+                            <p class="product-category">Outdoor • Hedges</p>
+                            <p class="product-list">Boxwood, Duranta, Acalypha, Clerodendrum</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 3: Trees -->
+            <div class="product-category-section" data-category="trees">
+                <div class="category-header">
+                    <h2>3. Trees</h2>
+                    <p class="category-description">Large or medium-sized species for landscapes, farms, or roadsides</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="fruit-trees">
+                        <div class="product-image">
+                            <img src="images/products/fruit-trees.jpg" alt="Fruit Trees" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Fruit Trees</h3>
+                            <p class="product-category">Trees • Fruit</p>
+                            <p class="product-list">Mango, Guava, Banana, Papaya, Lemon, Pomegranate, Jackfruit</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="shade-trees">
+                        <div class="product-image">
+                            <img src="images/products/shade-trees.jpg" alt="Shade Trees" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Shade Trees</h3>
+                            <p class="product-category">Trees • Shade</p>
+                            <p class="product-list">Neem, Banyan, Gulmohar, Rain Tree, Ashoka, Peepal</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="timber-trees">
+                        <div class="product-image">
+                            <img src="images/products/timber-trees.jpg" alt="Timber & Commercial Trees" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Timber & Commercial Trees</h3>
+                            <p class="product-category">Trees • Commercial</p>
+                            <p class="product-list">Teak, Mahogany, Sandalwood, Rosewood, Eucalyptus</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="ornamental-trees">
+                        <div class="product-image">
+                            <img src="images/products/ornamental-trees.jpg" alt="Ornamental Trees" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ornamental Trees</h3>
+                            <p class="product-category">Trees • Ornamental</p>
+                            <p class="product-list">Tabebuia, Cassia Fistula (Golden Shower), Jacaranda, Bottlebrush</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 4: Flowering Plants -->
+            <div class="product-category-section" data-category="flowering">
+                <div class="category-header">
+                    <h2>4. Flowering Plants (Seasonal & Perennial)</h2>
+                    <p class="category-description">Plants grown for colorful blooms</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="annuals">
+                        <div class="product-image">
+                            <img src="images/products/annuals.jpg" alt="Annuals" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Annuals</h3>
+                            <p class="product-category">Flowering • Annual</p>
+                            <p class="product-list">Marigold, Petunia, Zinnia, Sunflower, Balsam</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="perennials">
+                        <div class="product-image">
+                            <img src="images/products/perennials.jpg" alt="Perennials" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Perennials</h3>
+                            <p class="product-category">Flowering • Perennial</p>
+                            <p class="product-list">Hibiscus, Jasmine, Rose, Plumeria, Bougainvillea</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="bulbous">
+                        <div class="product-image">
+                            <img src="images/products/bulbous.jpg" alt="Bulbous Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Bulbous Plants</h3>
+                            <p class="product-category">Flowering • Bulbs</p>
+                            <p class="product-list">Lily, Tulip, Daffodil, Amaryllis, Gladiolus</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 5: Medicinal & Herbal Plants -->
+            <div class="product-category-section" data-category="medicinal">
+                <div class="category-header">
+                    <h2>5. Medicinal & Herbal Plants</h2>
+                    <p class="category-description">Used in Ayurveda and home remedies</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="common-herbs">
+                        <div class="product-image">
+                            <img src="images/products/common-herbs.jpg" alt="Common Herbs" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Common Herbs</h3>
+                            <p class="product-category">Medicinal • Herbs</p>
+                            <p class="product-list">Tulsi, Mint, Lemongrass, Curry Leaf, Aloe Vera</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="medicinal-plants">
+                        <div class="product-image">
+                            <img src="images/products/medicinal-plants.jpg" alt="Medicinal Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Medicinal Plants</h3>
+                            <p class="product-category">Medicinal • Ayurvedic</p>
+                            <p class="product-list">Neem, Ashwagandha, Brahmi, Giloy, Insulin Plant</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="aromatic">
+                        <div class="product-image">
+                            <img src="images/products/aromatic.jpg" alt="Aromatic Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Aromatic Plants</h3>
+                            <p class="product-category">Medicinal • Aromatic</p>
+                            <p class="product-list">Lavender, Rosemary, Thyme, Citronella, Sage</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 6: Fruit & Vegetable Plants -->
+            <div class="product-category-section" data-category="fruit-veg">
+                <div class="category-header">
+                    <h2>6. Fruit & Vegetable Plants</h2>
+                    <p class="category-description">Edible plants for kitchen gardens or farms</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="fruit-bearing">
+                        <div class="product-image">
+                            <img src="images/products/fruit-bearing.jpg" alt="Fruit-Bearing Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Fruit-Bearing Plants</h3>
+                            <p class="product-category">Fruits & Vegetables • Fruit</p>
+                            <p class="product-list">Banana, Strawberry, Papaya, Sapota, Citrus</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="vegetable-plants">
+                        <div class="product-image">
+                            <img src="images/products/vegetable-plants.jpg" alt="Vegetable Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Vegetable Plants</h3>
+                            <p class="product-category">Fruits & Vegetables • Vegetables</p>
+                            <p class="product-list">Tomato, Brinjal, Chilli, Okra, Capsicum</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="creeping-veg">
+                        <div class="product-image">
+                            <img src="images/products/creeping-vegetables.jpg" alt="Creeping Vegetables" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Creeping Vegetables</h3>
+                            <p class="product-category">Fruits & Vegetables • Creepers</p>
+                            <p class="product-list">Pumpkin, Cucumber, Bottle Gourd, Bitter Gourd</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 7: Aquatic & Semi-Aquatic Plants -->
+            <div class="product-category-section" data-category="aquatic">
+                <div class="category-header">
+                    <h2>7. Aquatic & Semi-Aquatic Plants</h2>
+                    <p class="category-description">For ponds, aquariums, and water gardens</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="floating">
+                        <div class="product-image">
+                            <img src="images/products/floating-plants.jpg" alt="Floating Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Floating Plants</h3>
+                            <p class="product-category">Aquatic • Floating</p>
+                            <p class="product-list">Water Hyacinth, Duckweed, Water Lettuce</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="submerged">
+                        <div class="product-image">
+                            <img src="images/products/submerged-plants.jpg" alt="Submerged Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Submerged Plants</h3>
+                            <p class="product-category">Aquatic • Submerged</p>
+                            <p class="product-list">Vallisneria, Hornwort, Anacharis</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="marginal">
+                        <div class="product-image">
+                            <img src="images/products/marginal-plants.jpg" alt="Marginal Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Marginal Plants</h3>
+                            <p class="product-category">Aquatic • Marginal</p>
+                            <p class="product-list">Lotus, Water Lily, Canna, Iris</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 8: Ornamental & Decorative Plants -->
+            <div class="product-category-section" data-category="ornamental">
+                <div class="category-header">
+                    <h2>8. Ornamental & Decorative Plants</h2>
+                    <p class="category-description">For aesthetic and landscaping use</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="foliage-ornamental">
+                        <div class="product-image">
+                            <img src="images/products/ornamental-foliage.jpg" alt="Foliage Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Foliage Plants</h3>
+                            <p class="product-category">Ornamental • Foliage</p>
+                            <p class="product-list">Croton, Calathea, Cordyline, Dracaena</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="variegated">
+                        <div class="product-image">
+                            <img src="images/products/variegated.jpg" alt="Variegated Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Variegated Plants</h3>
+                            <p class="product-category">Ornamental • Variegated</p>
+                            <p class="product-list">Dieffenbachia, Peperomia, Aglaonema</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="hanging">
+                        <div class="product-image">
+                            <img src="images/products/hanging-plants.jpg" alt="Hanging Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Hanging Plants</h3>
+                            <p class="product-category">Ornamental • Hanging</p>
+                            <p class="product-list">English Ivy, Spider Plant, Pothos, String of Pearls</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="topiary">
+                        <div class="product-image">
+                            <img src="images/products/topiary.jpg" alt="Topiary Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Topiary Plants</h3>
+                            <p class="product-category">Ornamental • Topiary</p>
+                            <p class="product-list">Ficus Panda, Duranta, Cypress</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 9: Bonsai & Exotic Plants -->
+            <div class="product-category-section" data-category="bonsai">
+                <div class="category-header">
+                    <h2>9. Bonsai & Exotic Plants</h2>
+                    <p class="category-description">Rare and aesthetic species for collectors</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="bonsai-trees">
+                        <div class="product-image">
+                            <img src="images/products/bonsai-trees.jpg" alt="Bonsai Trees" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Bonsai Trees</h3>
+                            <p class="product-category">Bonsai & Exotic • Bonsai</p>
+                            <p class="product-list">Ficus, Jade, Chinese Elm, Bougainvillea Bonsai</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="exotic-indoor">
+                        <div class="product-image">
+                            <img src="images/products/exotic-indoor.jpg" alt="Exotic Indoor Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Exotic Indoor Plants</h3>
+                            <p class="product-category">Bonsai & Exotic • Rare</p>
+                            <p class="product-list">Monstera, Philodendron Birkin, Anthurium, Caladium</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="carnivorous">
+                        <div class="product-image">
+                            <img src="images/products/carnivorous.jpg" alt="Carnivorous Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Carnivorous Plants</h3>
+                            <p class="product-category">Bonsai & Exotic • Special</p>
+                            <p class="product-list">Pitcher Plant, Venus Flytrap, Sundew</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 10: Landscaping & Lawn Plants -->
+            <div class="product-category-section" data-category="landscaping">
+                <div class="category-header">
+                    <h2>10. Landscaping & Lawn Plants</h2>
+                    <p class="category-description">For gardens, lawns, and commercial landscapes</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="ground-covers">
+                        <div class="product-image">
+                            <img src="images/products/ground-covers.jpg" alt="Ground Covers" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ground Covers</h3>
+                            <p class="product-category">Landscaping • Ground Cover</p>
+                            <p class="product-list">Wedelia, Creeping Fig, Mondo Grass</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="lawn-grasses">
+                        <div class="product-image">
+                            <img src="images/products/lawn-grasses.jpg" alt="Lawn Grasses" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Lawn Grasses</h3>
+                            <p class="product-category">Landscaping • Lawn</p>
+                            <p class="product-list">Bermuda, Zoysia, Korean Grass, Fescue</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="border-plants">
+                        <div class="product-image">
+                            <img src="images/products/border-plants.jpg" alt="Border Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Border Plants</h3>
+                            <p class="product-category">Landscaping • Borders</p>
+                            <p class="product-list">Alternanthera, Iresine, Chlorophytum</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 11: Tissue Culture & Lab-Grown Plants -->
+            <div class="product-category-section" data-category="tissue-culture">
+                <div class="category-header">
+                    <h2>11. Tissue Culture & Lab-Grown Plants</h2>
+                    <p class="category-description">Advanced biotech solutions for superior plant quality</p>
+                    <a href="tel:+919445450305" class="category-contact-btn">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-right: 6px;">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Call: +91 94454 50305
+                    </a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-subcategory="ornamental-tc">
+                        <div class="product-image">
+                            <img src="images/products/ornamental-tc.jpg" alt="Ornamental Tissue Culture" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ornamental TC Plants</h3>
+                            <p class="product-category">Tissue Culture • Ornamental</p>
+                            <p class="product-list">Banana TC, Orchids TC, Anthurium TC</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="commercial-tc">
+                        <div class="product-image">
+                            <img src="images/products/commercial-tc.jpg" alt="Commercial TC Crops" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Commercial TC Crops</h3>
+                            <p class="product-category">Tissue Culture • Commercial</p>
+                            <p class="product-list">Banana, Sugarcane, Cardamom, Teak, Bamboo</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                    <div class="product-card" data-subcategory="hardening">
+                        <div class="product-image">
+                            <img src="images/products/hardening.jpg" alt="Hardening Plants" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%; background: var(--cream);">
+                                <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: var(--primary-green);">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Hardening Plants</h3>
+                            <p class="product-category">Tissue Culture • Ready to Plant</p>
+                            <p class="product-list">Micropropagated plants ready for transfer to soil</p>
+                            <a href="tel:+919445450305" class="product-contact-btn">Call to Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lab Process Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Laboratory Process</h2>
+                <p class="section-subtitle">Advanced techniques for superior plant quality</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number"></div>
+                    <h3>Tissue Culture</h3>
+                    <p>We use advanced tissue culture techniques to produce disease-free, genetically uniform plants.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"></div>
+                    <h3>Genetic Selection</h3>
+                    <p>Careful selection of parent plants with desirable traits for optimal genetic combinations.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"></div>
+                    <h3>Quality Testing</h3>
+                    <p>Rigorous quality testing ensures every plant meets our high standards before distribution.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number"></div>
+                    <h3>Acclimatization</h3>
+                    <p>Proper acclimatization process ensures plants are ready for field conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Interested in Our Products?</h2>
+            <p>Contact us for pricing and bulk orders</p>
+            <a href="contact.html" class="btn btn-white">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="images/logo.png" alt="Finura Agro Tech LLP Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <div class="logo-icon" style="display: none;">🌱</div>
+                        <h3>Finura Agro Tech LLP</h3>
+                    </div>
+                    <p>Promoting organic farming and biotechnology for food security, environmental protection, and rural development.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="internships.html">Internships</a></li>
+                        <li><a href="accreditations.html">Accreditations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@finuraagrotech.com</p>
+                    <p>Phone: +91 94454 50305</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/finuraagrotech/" target="_blank" rel="noopener noreferrer" class="social-link instagram" aria-label="Follow us on Instagram">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/p/Finura-Agro-Tech-100084785244524/" target="_blank" rel="noopener noreferrer" class="social-link facebook" aria-label="Follow us on Facebook">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Finura Agro Tech LLP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
